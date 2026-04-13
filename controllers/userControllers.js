@@ -2,7 +2,7 @@ import userModel from "../models/userModel.js"
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 import "dotenv/config"
-import getDataUri from "../utils/dataUri.js"
+import getDataUri from "../utils/datauri.js"
 import cloudinary from "../utils/cloudinary.js"
 // REGISTER
 export const register = async (req, res) => {
